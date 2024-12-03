@@ -1,0 +1,23 @@
+main{
+    min-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+li{
+    background-color: yellow;
+}
+
+/* Name of the parent: ul */
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: lightpink; 
+}
